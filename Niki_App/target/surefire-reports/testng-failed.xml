@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Testing]">
+  <parameter name="port" value="4723"/>
+  <parameter name="Grid" value="no"/>
+  <parameter name="deviceName" value="Moto"/>
+  <test name="Niki_App_Scenarios(failed)">
+    <classes>
+      <class name="com.niki.test.TestReferrelEarn">
+        <methods>
+          <include name="referralEarn"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.niki.test.TestReferrelEarn -->
+    </classes>
+  </test> <!-- Niki_App_Scenarios(failed) -->
+</suite> <!-- Failed suite [Testing] -->

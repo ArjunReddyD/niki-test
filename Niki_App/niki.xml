@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Testing" annotations="JDK" >
+    
+    <parameter name="Grid" value="no"/>
+	<parameter name="deviceName" value="Moto"/>
+	<parameter name="port" value="4723"></parameter>
+  	
+	<test name="Niki_App_Scenarios"  >
+		<classes>
+		   
+			<class name="com.niki.test.TestSignup">
+				<methods>
+					<include name="validSignup" />
+				</methods>	
+			</class>
+			
+			
+			<class name="com.niki.test.TestMovieTicketBooking">
+				<methods>
+					<include name="validBookMovieTicket" />
+				</methods>	
+			</class>
+			
+			
+			<class name="com.niki.test.TestOfferAndPromoCodes">
+				<methods>
+					<include name="offerAndPromoCodes" />
+				</methods>	
+			</class>
+			
+			<class name="com.niki.test.TestReferrelEarn">
+				<methods>
+					<include name="referralEarn" />
+				</methods>	
+			</class>
+			
+			<class name="com.niki.test.TestSaveAddress">
+				<methods>
+					<include name="saveAddress" />
+				</methods>	
+			</class>
+
+			<class name="com.niki.test.TestSetReminder">
+				<methods>
+					<include name="setReminder" />
+				</methods>	
+			</class>
+				
+		</classes>
+	</test>
+ </suite>

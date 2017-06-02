@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.694 sec <<< FAILURE! - in TestSuite
+teardown(com.niki.test.TestReferrelEarn)  Time elapsed: 14.6 sec  <<< FAILURE!
+org.openqa.selenium.remote.SessionNotFoundException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'BPA-CH-L048', ip: '192.168.254.23', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: driver.version: AppiumDriver
+	at com.niki.test.TestReferrelEarn.teardown(TestReferrelEarn.java:122)
+
